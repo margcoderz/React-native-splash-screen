@@ -5,7 +5,8 @@ I have Added splash screen in both Android and IOS using  react-native-bootsplas
 #Step 1 
 Create a Kotlin File for Splash Screen:
 
-</>
+```ruby
+
 package com.yourapp
 import android.content.Intent
 import android.os.Bundle
@@ -16,21 +17,26 @@ class SplashActivity : AppCompatActivity() {
 
         val intent = Intent(this, MainActivity::class.java)
         startActivity(intent)
-        finish()
+        finish()    
     }
 }
-
+```
 
 #Step 2 
+
 Add Drawable Resources: and Modify styles.xml
+```ruby
 <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
     <item name="android:windowBackground">@drawable/splash_screen</item>
 </style>
 
-
+```
 
 #strp 3
 Update AndroidManifest.xml:
+
+
+```ruby
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
 
     <uses-permission android:name="android.permission.INTERNET" />
@@ -64,6 +70,6 @@ Update AndroidManifest.xml:
     </application>
 </manifest>
 
-
+```
 
 Run Your Application:....
