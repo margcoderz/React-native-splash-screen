@@ -1,5 +1,5 @@
 # React-native-splash-screen
-I have Added splash screen in both Android and IOS using  react-native-bootsplash
+I have Added splash screen in  Android and  for ios use xcode (native side splash)
 
 
 #Step 1 
