@@ -5,12 +5,11 @@ I have Added splash screen in both Android and IOS using  react-native-bootsplas
 #Step 1 
 Create a Kotlin File for Splash Screen:
 
+</>
 package com.yourapp
-
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-
 class SplashActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
